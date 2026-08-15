@@ -1,0 +1,15 @@
+[package]
+name = "twitch-overlay"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk4 = "0.10"
+gdk4 = "0.10"
+gtk4-layer-shell = "0.7"
+webkit6 = "0.5"
+cairo-rs = "0.21"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+dirs = "5"
+interprocess = "2"
