@@ -20,7 +20,8 @@ pub fn setup(window: &ApplicationWindow, settings: &Settings, state: &crate::app
     // Put the overlay on the top layer.
     //
     // Layer::Top means the surface is above normal application windows.
-    window.set_layer(Layer::Top);
+    //window.set_layer(Layer::Top);
+    window.set_layer(Layer::Overlay);
 
     match settings.position {
         Position::TopLeft => {
